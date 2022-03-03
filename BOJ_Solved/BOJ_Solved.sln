@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2753_윤년", "..\2753_윤�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14681_사분면 고르기", "..\14681_사분면 고르기\14681_사분면 고르기.vcxproj", "{000787AE-B166-4125-84CF-A5692DD207CD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2884_알람 시계", "..\2884_알람 시계\2884_알람 시계.vcxproj", "{328BED3A-7585-4158-9AD1-443E65D8E1C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{000787AE-B166-4125-84CF-A5692DD207CD}.Release|x64.Build.0 = Release|x64
 		{000787AE-B166-4125-84CF-A5692DD207CD}.Release|x86.ActiveCfg = Release|Win32
 		{000787AE-B166-4125-84CF-A5692DD207CD}.Release|x86.Build.0 = Release|Win32
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Debug|x64.ActiveCfg = Debug|x64
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Debug|x64.Build.0 = Debug|x64
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Debug|x86.Build.0 = Debug|Win32
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Release|x64.ActiveCfg = Release|x64
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Release|x64.Build.0 = Release|x64
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Release|x86.ActiveCfg = Release|Win32
+		{328BED3A-7585-4158-9AD1-443E65D8E1C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
