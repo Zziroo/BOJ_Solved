@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10828_스택", "..\10828_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10773_제로", "..\10773_제로\10773_제로.vcxproj", "{7ED3027C-197F-40D8-8B3D-DEC34D63BC32}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2739_구구단", "..\2739_구구단\2739_구구단.vcxproj", "{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{7ED3027C-197F-40D8-8B3D-DEC34D63BC32}.Release|x64.Build.0 = Release|x64
 		{7ED3027C-197F-40D8-8B3D-DEC34D63BC32}.Release|x86.ActiveCfg = Release|Win32
 		{7ED3027C-197F-40D8-8B3D-DEC34D63BC32}.Release|x86.Build.0 = Release|Win32
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Debug|x64.ActiveCfg = Debug|x64
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Debug|x64.Build.0 = Debug|x64
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Debug|x86.Build.0 = Debug|Win32
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Release|x64.ActiveCfg = Release|x64
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Release|x64.Build.0 = Release|x64
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Release|x86.ActiveCfg = Release|Win32
+		{35BF7240-0CA0-4FA5-9122-E350BE43ECE7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
