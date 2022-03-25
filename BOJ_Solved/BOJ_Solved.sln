@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1546_평균", "..\1546_평�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8958_OX퀴즈", "..\8958_OX퀴즈\8958_OX퀴즈.vcxproj", "{889449C3-B5CF-403D-B360-29DFD442E558}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4344_평균은 넘겠지", "..\4344_평균은 넘겠지\4344_평균은 넘겠지.vcxproj", "{45605C57-9FB4-4617-B0E1-C01840DC202E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{889449C3-B5CF-403D-B360-29DFD442E558}.Release|x64.Build.0 = Release|x64
 		{889449C3-B5CF-403D-B360-29DFD442E558}.Release|x86.ActiveCfg = Release|Win32
 		{889449C3-B5CF-403D-B360-29DFD442E558}.Release|x86.Build.0 = Release|Win32
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Debug|x64.ActiveCfg = Debug|x64
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Debug|x64.Build.0 = Debug|x64
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Debug|x86.ActiveCfg = Debug|Win32
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Debug|x86.Build.0 = Debug|Win32
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Release|x64.ActiveCfg = Release|x64
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Release|x64.Build.0 = Release|x64
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Release|x86.ActiveCfg = Release|Win32
+		{45605C57-9FB4-4617-B0E1-C01840DC202E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
