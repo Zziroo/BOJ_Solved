@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2908_상수", "..\2908_상�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5622_다이얼", "..\5622_다이얼\5622_다이얼.vcxproj", "{A88F1483-A25B-4B69-9BF3-01F68DBC9746}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2941_크로아티아 알파벳", "..\2941_크로아티아 알파벳\2941_크로아티아 알파벳.vcxproj", "{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -451,6 +453,14 @@ Global
 		{A88F1483-A25B-4B69-9BF3-01F68DBC9746}.Release|x64.Build.0 = Release|x64
 		{A88F1483-A25B-4B69-9BF3-01F68DBC9746}.Release|x86.ActiveCfg = Release|Win32
 		{A88F1483-A25B-4B69-9BF3-01F68DBC9746}.Release|x86.Build.0 = Release|Win32
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Debug|x64.ActiveCfg = Debug|x64
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Debug|x64.Build.0 = Debug|x64
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Debug|x86.Build.0 = Debug|Win32
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Release|x64.ActiveCfg = Release|x64
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Release|x64.Build.0 = Release|x64
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Release|x86.ActiveCfg = Release|Win32
+		{800FAC3E-7B8E-480A-A58D-A0AB58324BDD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
