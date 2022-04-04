@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1316_그룹 단어 체커",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1712_손익분기점", "..\1712_손익분기점\1712_손익분기점.vcxproj", "{A1E3EF8B-1B62-4894-A9C2-C7F0B6471298}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2292_벌집", "..\2292_벌집\2292_벌집.vcxproj", "{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -481,6 +483,14 @@ Global
 		{A1E3EF8B-1B62-4894-A9C2-C7F0B6471298}.Release|x64.Build.0 = Release|x64
 		{A1E3EF8B-1B62-4894-A9C2-C7F0B6471298}.Release|x86.ActiveCfg = Release|Win32
 		{A1E3EF8B-1B62-4894-A9C2-C7F0B6471298}.Release|x86.Build.0 = Release|Win32
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Debug|x64.ActiveCfg = Debug|x64
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Debug|x64.Build.0 = Debug|x64
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Debug|x86.Build.0 = Debug|Win32
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Release|x64.ActiveCfg = Release|x64
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Release|x64.Build.0 = Release|x64
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Release|x86.ActiveCfg = Release|Win32
+		{CF9347BD-4C6F-427F-A8DA-511D6F3971ED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
