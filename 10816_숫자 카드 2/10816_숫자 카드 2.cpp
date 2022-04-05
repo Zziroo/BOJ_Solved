@@ -35,6 +35,4 @@ int main()
 
 		cout << upper_bound(arr, arr + N, temp) - lower_bound(arr, arr + N, temp) << " ";
 	}
-
-
 }
