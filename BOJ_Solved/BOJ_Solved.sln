@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2292_벌집", "..\2292_벌�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1193_분수찾기", "..\1193_분수찾기\1193_분수찾기.vcxproj", "{308344D4-694B-455F-81AB-6B964D316069}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2869_달팽이는 올라가고 싶다", "..\2869_달팽이는 올라가고 싶다\2869_달팽이는 올라가고 싶다.vcxproj", "{D17542E4-EA43-42C8-8D08-709127260A83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{308344D4-694B-455F-81AB-6B964D316069}.Release|x64.Build.0 = Release|x64
 		{308344D4-694B-455F-81AB-6B964D316069}.Release|x86.ActiveCfg = Release|Win32
 		{308344D4-694B-455F-81AB-6B964D316069}.Release|x86.Build.0 = Release|Win32
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Debug|x64.ActiveCfg = Debug|x64
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Debug|x64.Build.0 = Debug|x64
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Debug|x86.ActiveCfg = Debug|Win32
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Debug|x86.Build.0 = Debug|Win32
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Release|x64.ActiveCfg = Release|x64
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Release|x64.Build.0 = Release|x64
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Release|x86.ActiveCfg = Release|Win32
+		{D17542E4-EA43-42C8-8D08-709127260A83}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
