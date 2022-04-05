@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1193_분수찾기", "..\119
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2869_달팽이는 올라가고 싶다", "..\2869_달팽이는 올라가고 싶다\2869_달팽이는 올라가고 싶다.vcxproj", "{D17542E4-EA43-42C8-8D08-709127260A83}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1920_수 찾기", "..\1920_수 찾기\1920_수 찾기.vcxproj", "{1441E59F-D278-4291-9153-C2AC2E3337D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{D17542E4-EA43-42C8-8D08-709127260A83}.Release|x64.Build.0 = Release|x64
 		{D17542E4-EA43-42C8-8D08-709127260A83}.Release|x86.ActiveCfg = Release|Win32
 		{D17542E4-EA43-42C8-8D08-709127260A83}.Release|x86.Build.0 = Release|Win32
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Debug|x64.ActiveCfg = Debug|x64
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Debug|x64.Build.0 = Debug|x64
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Debug|x86.Build.0 = Debug|Win32
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Release|x64.ActiveCfg = Release|x64
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Release|x64.Build.0 = Release|x64
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Release|x86.ActiveCfg = Release|Win32
+		{1441E59F-D278-4291-9153-C2AC2E3337D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
