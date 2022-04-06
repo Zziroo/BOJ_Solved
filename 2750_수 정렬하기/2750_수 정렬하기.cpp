@@ -1,7 +1,6 @@
 ﻿// 2750_수 정렬하기.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
-#include <algorithm>
 #include <iostream>
 
 using namespace std;
@@ -16,17 +15,21 @@ void SwapNum(int& lhs, int& rhs)
 	rhs = temp;
 }
 
-void BubbleSort(int arr[], int size)
+void SelectionSort(int arr[], int size)
 {
-	for (int i = 0; i < size; ++i)
+	for (int i = 0; i < size - 1; ++i)
 	{
-		for (int j = 0; j < size - 1; ++j)
+		int temp = i;
+
+		for (int j = i + 1; j < size; ++j)
 		{
-			if (arr[j] > arr[j + 1])
+			if (arr[j] < arr[temp])
 			{
-				SwapNum(arr[j], arr[j + 1]);
+				temp = j;
 			}
 		}
+
+		SwapNum(arr[i], arr[temp]);
 	}
 }
 
@@ -43,7 +46,7 @@ int main()
 		cin >> arr[i];
 	}
 
-	BubbleSort(arr, N);
+	SelectionSort(arr, N);
 
 	for (int i = 0; i < N; ++i)
 	{
