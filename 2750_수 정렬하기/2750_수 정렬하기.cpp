@@ -9,6 +9,27 @@ using namespace std;
 int N;
 int arr[1'002];
 
+void SwapNum(int& lhs, int& rhs)
+{
+	int temp = lhs;
+	lhs = rhs;
+	rhs = temp;
+}
+
+void BubbleSort(int arr[], int size)
+{
+	for (int i = 0; i < size; ++i)
+	{
+		for (int j = 0; j < size - 1; ++j)
+		{
+			if (arr[j] > arr[j + 1])
+			{
+				SwapNum(arr[j], arr[j + 1]);
+			}
+		}
+	}
+}
+
 int main()
 {
 	ios_base::sync_with_stdio(false);
@@ -22,7 +43,7 @@ int main()
 		cin >> arr[i];
 	}
 
-	sort(arr, arr + N);
+	BubbleSort(arr, N);
 
 	for (int i = 0; i < N; ++i)
 	{
