@@ -15,21 +15,20 @@ void SwapNum(int& lhs, int& rhs)
 	rhs = temp;
 }
 
-void SelectionSort(int arr[], int size)
+void InsertionSort(int arr[], int size)
 {
-	for (int i = 0; i < size - 1; ++i)
+	for (int i = 0; i < size; ++i)
 	{
-		int temp = i;
+		int temp = arr[i];
 
-		for (int j = i + 1; j < size; ++j)
+		int j = 0;
+
+		for (j = i - 1; j >= 0 && arr[j] > temp; --j)
 		{
-			if (arr[j] < arr[temp])
-			{
-				temp = j;
-			}
+			arr[j + 1] = arr[j];
 		}
 
-		SwapNum(arr[i], arr[temp]);
+		arr[j + 1] = temp;
 	}
 }
 
@@ -46,7 +45,7 @@ int main()
 		cin >> arr[i];
 	}
 
-	SelectionSort(arr, N);
+	InsertionSort(arr, N);
 
 	for (int i = 0; i < N; ++i)
 	{
