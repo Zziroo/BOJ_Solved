@@ -26,18 +26,9 @@ int main()
 		int y = 0;
 		int roomNum = 0;
 
-		if (0 == (N % H))
-		{
-			x = N / H;
+		x = (N - 1) / H + 1;
 
-			y = H;
-		}
-		else
-		{
-			x = (N / H) + 1;
-
-			y = N % H;
-		}
+		y = (N - 1) % H + 1;
 
 		roomNum = (y * 100) + x;
 
