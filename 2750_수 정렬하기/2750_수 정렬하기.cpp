@@ -15,21 +15,42 @@ void SwapNum(int& lhs, int& rhs)
 	rhs = temp;
 }
 
-void InsertionSort(int arr[], int size)
+void QuickSort(int arr[], int start, int end)
 {
-	for (int i = 0; i < size; ++i)
+	if (start >= end)
 	{
-		int temp = arr[i];
+		return;
+	}
 
-		int j = 0;
+	int pivot = start;
+	int high = pivot + 1;
+	int low = end;
+	int temp = 0;
 
-		for (j = i - 1; j >= 0 && arr[j] > temp; --j)
+	while (high <= low)
+	{
+		while (high <= end && arr[high] <= arr[pivot])
 		{
-			arr[j + 1] = arr[j];
+			++high;
 		}
 
-		arr[j + 1] = temp;
+		while (low > start && arr[low] >= arr[pivot])
+		{
+			--low;
+		}
+
+		if (high > low)
+		{
+			SwapNum(arr[low], arr[pivot]);
+		}
+		else
+		{
+			SwapNum(arr[high], arr[low]);
+		}
 	}
+
+	QuickSort(arr, start, low - 1);
+	QuickSort(arr, low + 1, end);
 }
 
 int main()
@@ -45,7 +66,7 @@ int main()
 		cin >> arr[i];
 	}
 
-	InsertionSort(arr, N);
+	QuickSort(arr, 0, N - 1);
 
 	for (int i = 0; i < N; ++i)
 	{
