@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1427_소트인사이드", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11650_좌표 정렬하기", "..\11650_좌표 정렬하기\11650_좌표 정렬하기.vcxproj", "{3977EEC4-0586-493E-ACF9-517C223D52AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11651_좌표 정렬하기 2", "..\11651_좌표 정렬하기 2\11651_좌표 정렬하기 2.vcxproj", "{1192778E-7B49-41C1-B065-B5393D3DAB6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -611,6 +613,14 @@ Global
 		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Release|x64.Build.0 = Release|x64
 		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Release|x86.ActiveCfg = Release|Win32
 		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Release|x86.Build.0 = Release|Win32
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Debug|x64.ActiveCfg = Debug|x64
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Debug|x64.Build.0 = Debug|x64
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Debug|x86.ActiveCfg = Debug|Win32
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Debug|x86.Build.0 = Debug|Win32
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Release|x64.ActiveCfg = Release|x64
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Release|x64.Build.0 = Release|x64
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Release|x86.ActiveCfg = Release|Win32
+		{1192778E-7B49-41C1-B065-B5393D3DAB6C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
