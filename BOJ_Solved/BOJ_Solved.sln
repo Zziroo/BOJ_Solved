@@ -119,6 +119,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10989_수 정렬하기 3", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2108_통계학", "..\2108_통계학\2108_통계학.vcxproj", "{B7E23A86-E5EA-4CFC-8094-2AA59611C9BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1427_소트인사이드", "..\1427_소트인사이드\1427_소트인사이드.vcxproj", "{81545712-9AB5-418D-A30A-5449E286C2F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11650_좌표 정렬하기", "..\11650_좌표 정렬하기\11650_좌표 정렬하기.vcxproj", "{3977EEC4-0586-493E-ACF9-517C223D52AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -591,6 +595,22 @@ Global
 		{B7E23A86-E5EA-4CFC-8094-2AA59611C9BE}.Release|x64.Build.0 = Release|x64
 		{B7E23A86-E5EA-4CFC-8094-2AA59611C9BE}.Release|x86.ActiveCfg = Release|Win32
 		{B7E23A86-E5EA-4CFC-8094-2AA59611C9BE}.Release|x86.Build.0 = Release|Win32
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Debug|x64.ActiveCfg = Debug|x64
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Debug|x64.Build.0 = Debug|x64
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Debug|x86.Build.0 = Debug|Win32
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Release|x64.ActiveCfg = Release|x64
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Release|x64.Build.0 = Release|x64
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Release|x86.ActiveCfg = Release|Win32
+		{81545712-9AB5-418D-A30A-5449E286C2F4}.Release|x86.Build.0 = Release|Win32
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Debug|x64.ActiveCfg = Debug|x64
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Debug|x64.Build.0 = Debug|x64
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Debug|x86.Build.0 = Debug|Win32
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Release|x64.ActiveCfg = Release|x64
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Release|x64.Build.0 = Release|x64
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Release|x86.ActiveCfg = Release|Win32
+		{3977EEC4-0586-493E-ACF9-517C223D52AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
