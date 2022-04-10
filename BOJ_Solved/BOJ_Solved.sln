@@ -137,6 +137,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2839_설탕 배달", "..\28
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10757_큰 수 A+B", "..\10757_큰 수 A+B\10757_큰 수 A+B.vcxproj", "{13BC423A-781B-4C5E-BE12-5B01F0BE99E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11047_동전 0", "..\11047_동전 0\11047_동전 0.vcxproj", "{756BDD50-AE2B-424D-BCA6-63C3620406F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -681,6 +683,14 @@ Global
 		{13BC423A-781B-4C5E-BE12-5B01F0BE99E0}.Release|x64.Build.0 = Release|x64
 		{13BC423A-781B-4C5E-BE12-5B01F0BE99E0}.Release|x86.ActiveCfg = Release|Win32
 		{13BC423A-781B-4C5E-BE12-5B01F0BE99E0}.Release|x86.Build.0 = Release|Win32
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Debug|x64.ActiveCfg = Debug|x64
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Debug|x64.Build.0 = Debug|x64
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Debug|x86.Build.0 = Debug|Win32
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Release|x64.ActiveCfg = Release|x64
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Release|x64.Build.0 = Release|x64
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Release|x86.ActiveCfg = Release|Win32
+		{756BDD50-AE2B-424D-BCA6-63C3620406F9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
