@@ -145,6 +145,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1978_소수 찾기", "..\19
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2581_소수", "..\2581_소수\2581_소수.vcxproj", "{60383107-EAF2-45AB-B4D4-D8318DB702DE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11653_소인수분해", "..\11653_소인수분해\11653_소인수분해.vcxproj", "{085F27D1-9B64-4629-90C2-1D735DCFCD18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -721,6 +723,14 @@ Global
 		{60383107-EAF2-45AB-B4D4-D8318DB702DE}.Release|x64.Build.0 = Release|x64
 		{60383107-EAF2-45AB-B4D4-D8318DB702DE}.Release|x86.ActiveCfg = Release|Win32
 		{60383107-EAF2-45AB-B4D4-D8318DB702DE}.Release|x86.Build.0 = Release|Win32
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Debug|x64.ActiveCfg = Debug|x64
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Debug|x64.Build.0 = Debug|x64
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Debug|x86.ActiveCfg = Debug|Win32
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Debug|x86.Build.0 = Debug|Win32
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Release|x64.ActiveCfg = Release|x64
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Release|x64.Build.0 = Release|x64
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Release|x86.ActiveCfg = Release|Win32
+		{085F27D1-9B64-4629-90C2-1D735DCFCD18}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
